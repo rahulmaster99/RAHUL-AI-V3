@@ -6,7 +6,7 @@
 <h1 align="center"> RAHUL-AI-V3 </h1> 
 
 <p align="center">
-  <img alt="RAHUL-AI-V3" src="https://raw.githubusercontent.com/rahulmaster143/RAHUL-AI-V3/main/lib/assets//https://files.catbox.moe/rwyp4c.jpeg"
+  <img alt="RAHUL-AI-V3" src="https://raw.githubusercontent.com/rahulmaster143/RAHUL-AI-V3/main/lib/assets// <https://files.catbox.moe/rwyp4c.jpeg">
 </p>
 ---
   
