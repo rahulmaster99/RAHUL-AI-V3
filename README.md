@@ -1,5 +1,5 @@
 
-# [RAHUL-AI-V3 WhatsApp Bot] [🤍🚨]
+# [RAHUL-AI-V3 WhatsApp Bot] 🤍🚨
 
 ![Bot Image](https://files.catbox.moe/x1onpj.jpg)
 
