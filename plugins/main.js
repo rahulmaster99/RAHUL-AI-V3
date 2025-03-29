@@ -78,7 +78,7 @@ const formatCategory = (category, cmds) => {
 
         // Send menu
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/msn93a.jpg' }, 
+            image: { url: 'https://files.catbox.moe/bruryh.jpeg' }, 
             caption: menu.trim(),
         }, { quoted: mek });
     } catch (e) {
