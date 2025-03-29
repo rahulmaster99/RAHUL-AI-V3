@@ -68,7 +68,7 @@ Generate your session ID for deployment:
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
-**HELPER by [SARKAR-BANDAHEALI]
+**HELPER by [Sarkar-Bandaheali]
 (https://github.com/Sarkar-Bandaheali)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
