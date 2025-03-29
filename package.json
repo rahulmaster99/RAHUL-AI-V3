@@ -1,12 +1,12 @@
 {
-  "name": "EMPIRE-MD",
+  "name": "RAHUL-AI-V3",
   "version": "1.0.0",
-  "description": "𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳 | 𝐴𝑛 𝑎𝑙𝑙-𝑖𝑛-𝑜𝑛𝑒 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 𝐵𝑜𝑡 𝐹𝑜𝑟 𝑀𝑢𝑠𝑖𝑐 🎶 , 𝑆𝑚𝑎𝑟𝑡 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠 🤖. 𝐹𝑎𝑠𝑡 ,𝑅𝑒𝑙𝑖𝑎𝑏𝑙𝑒, 𝑎𝑛𝑑 𝑎𝑤𝑒𝑠𝑜𝑚𝑒 🚀",
+  "description": "RAHUL-AI-V3 | 𝐴𝑛 𝑎𝑙𝑙-𝑖𝑛-𝑜𝑛𝑒 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 𝐵𝑜𝑡 𝐹𝑜𝑟 𝑀𝑢𝑠𝑖𝑐 🎶 , 𝑆𝑚𝑎𝑟𝑡 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠 🤖. 𝐹𝑎𝑠𝑡 ,𝑅𝑒𝑙𝑖𝑎𝑏𝑙𝑒, 𝑎𝑛𝑑 𝑎𝑤𝑒𝑠𝑜𝑚𝑒 🚀",
   "main": "index.js",
   "scripts": {
-    "restart": "pm2 restart EMPIRE-MD",
+    "restart": "pm2 restart RAHUL-AI-V3",
     "start": "pm2 start index.js --deep-monitoring --attach --name EMPIRE-MD",
-    "stop": "pm2 stop EMPIRE-MD"
+    "stop": "pm2 stop RAHUL-AI-V3"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -38,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/efeurhobobullish/EMPIRE-MD.git"
+    "url": "git+https://github.com/rahulmaster143/RAHUL-AI-V3.git"
   },
   "bugs": {
-    "url": "https://github.com/efeurhobobullish/EMPIRE-MD/issues"
+    "url": "https://github.com/rahulmaster143/RAHUL-AI-V3/issues"
   },
-  "homepage": "https://github.com/efeurhobobullish/EMPIRE-MD#readme"
+  "homepage": "https://github.com/rahulmaster143/RAHUL-AI-V3#readme"
 }
