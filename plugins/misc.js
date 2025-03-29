@@ -151,7 +151,7 @@ cmd({
         await conn.sendMessage(
             from,
             { 
-                image: { url: 'https://files.catbox.moe/msn93a.jpg' },
+                image: { url: 'https://files.catbox.moe/bruryh.jpeg' },
                 caption: aliveMsg
             },
             { quoted: mek }
