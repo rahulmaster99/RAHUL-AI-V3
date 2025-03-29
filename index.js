@@ -1,7 +1,7 @@
 //---------------------------------------------------------------------------
-//           EMPIRE-MD  
+//           RAHUL-AI-V3  
 //---------------------------------------------------------------------------
-//  @project_name : EMPIRE-MD  
+//  @project_name : RAHUL-AI-V3  
 //  @author       : efeurhobo bullish
 //  ⚠️ DO NOT MODIFY THIS FILE ⚠️  
 //---------------------------------------------------------------------------
@@ -79,7 +79,7 @@ require("./plugins/" + plugin);
 console.log('⏳ Checking External Plugins.!')
 console.log('✅ External Plugins Installed!')
         let up = `
-╭──「 𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳 」───◆  
+╭──「 RAHUL-AI-V3 」───◆  
 │ ∘ 𝙿𝚛𝚎𝚏𝚒𝚡: [ ${prefix} ]  
 │ ∘ 𝙼𝚘𝚍𝚎: ${mode}  
 │ ∘ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖: 𝙻𝚒𝚗𝚞𝚡  
@@ -178,8 +178,8 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
   
 
 //===================WORKTYPE===============================
-if(!isOwner && config.MODE === "private") return
-if(!isOwner && isGroup && config.MODE === "inbox") return
+if(!isOwner && config.MODE === "public") return
+if(!isOwisGroup && config.MODE === "inbox") return
 if(!isOwner && isGroup && config.MODE === "groups") return
 //==================================================
 
@@ -219,7 +219,7 @@ command.function(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGr
 })
 }
 app.get("/", (req, res) => {
-res.send("EMPIRE-MD Connected");
+res.send("RAHUL-AI-V3 Connected");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
