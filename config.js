@@ -29,7 +29,7 @@ module.exports = {
     ANTILINK: process.env.ANTILINK || "false",
     ANTIDELETE: process.env.ANTIDELETE || "true",
     ANTIDELETE_PM: process.env.ANTIDELETE_PM || "false",
-    AUTO_LIKE_EMOJI: process.env.AUTO_LIKE_EMOJI || "💚",
+    AUTO_LIKE_EMOJI: process.env.AUTO_LIKE_EMOJI || "✈️",
     AUTO_LIKE_STATUS: process.env.AUTO_LIKE_STATUS || "false",
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
     AUTO_TYPING: process.env.AUTO_TYPING || "false",
