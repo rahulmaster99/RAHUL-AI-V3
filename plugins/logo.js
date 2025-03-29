@@ -1,7 +1,7 @@
 //---------------------------------------------
-//           EMPIRE-MD  
+//           RAHUL-AI-V3  
 //---------------------------------------------
-//  @project_name : EMPIRE-MD  
+//  @project_name : RAHUL-AI-V3  
 //  @author       : efeurhobobullish
 //  ⚠️ DO NOT MODIFY THIS FILE ⚠️  
 //---------------------------------------------
