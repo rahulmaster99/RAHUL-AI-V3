@@ -61,12 +61,12 @@ Generate your session ID for deployment:
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**HELPER by [RUSH-MASTER](https://github.com/RUSH-MASTER)**
+**HELPER by [RUSH-MASTER]**(https://github.com/RUSH-MASTER)**
 
 src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-**HELPER by [SARKAR-BANDAHEALI]
+**HELPER by [Sarkar-Bandaheali]**
 (https://github.com/Sarkar-Bandaheali)**
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
