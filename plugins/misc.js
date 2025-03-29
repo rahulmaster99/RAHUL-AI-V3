@@ -22,7 +22,7 @@ cmd({
 }, async (conn, mek, m, { from, q, body, reply, isOwner }) => {
       if (!isOwner) return reply("*Owner Only Command*");
 
-const image = "https://files.catbox.moe/x1onpj.jpg";
+const image = "https://files.catbox.moe/bruryh.jpeg";
 
     const infoMess = {
             image: { url: image },
@@ -116,7 +116,7 @@ cmd({
 │ ∘ 𝙱𝚘𝚝 𝚄𝚙𝚝𝚒𝚖𝚎: ${uptime}  
 ╰────────────────────`;
 
-      const imageUrl = "https://files.catbox.moe/x1onpj.jpg";
+      const imageUrl = "https://files.catbox.moe/bruryh.jpeg";
 
       await conn.sendMessage(
         from,
@@ -194,7 +194,7 @@ cmd({
 cmd({
     pattern: "repo",
     category: "misc",
-    react: "📂",
+    react: "💙",
     desc: "Fetch repository details.",
     filename: __filename,
 }, async (conn, mek, m, { from, reply }) => {
@@ -224,7 +224,7 @@ cmd({
 │ ∘ 𝚂𝚝𝚊𝚛𝚜: ${repoData.stargazers_count}  
 │ ∘ 𝙵𝚘𝚛𝚔𝚜: ${repoData.forks_count}  
 │ ∘ 𝚄𝚁𝙻: ${repoData.html_url}  
-│ ∘ 𝚂𝚎𝚜𝚜𝚒𝚘𝚗: https://empire-md-paircode-erqo.onrender.com
+│ ∘ 𝚂𝚎𝚜𝚜𝚒𝚘𝚗: https://passive-veronike-rahul93-1ca567a9.koyeb.app/
 ╰────────────────────`;
 
         await conn.sendMessage(from, { text: formattedInfo }, { quoted: mek });
