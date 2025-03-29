@@ -9,7 +9,7 @@ cmd({
     pattern: "blocklist",
     desc: "View the list of blocked users.",
     category: "privacy",
-    react: "📋",
+    react: "✈️",
     filename: __filename
 },
 async (conn, mek, m, { from, isOwner, reply }) => {
@@ -92,7 +92,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
         if (!duka) return reply('🚫 *Failed to fetch privacy settings*');
         
         let puka = `
-╭───「 𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳 𝙿𝚁𝙸𝚅𝙰𝙲𝚈  」───◆  
+╭───「 RAHUL-AI-V3 𝙿𝚁𝙸𝚅𝙰𝙲𝚈  」───◆  
 │ ∘ 𝚁𝚎𝚊𝚍 𝚁𝚎𝚌𝚎𝚒𝚙𝚝: ${duka.readreceipts}  
 │ ∘ 𝙿𝚛𝚘𝚏𝚒𝚕𝚎 𝙿𝚒𝚌𝚝𝚞𝚛𝚎: ${duka.profile}  
 │ ∘ 𝚂𝚝𝚊𝚝𝚞𝚜: ${duka.status}  
@@ -102,8 +102,8 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
 │ ∘ 𝙲𝚊𝚕𝚕 𝙿𝚛𝚒𝚟𝚊𝚌𝚢: ${duka.calladd}  
 ╰────────────────────
 
-      [ 𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳 ]  
-𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝙴𝚖𝚙𝚒𝚛𝚎 𝚃𝚎𝚌𝚑  `;
+      [ RAHUL-AI-V3 ]  
+𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 Rahul-Master  `;
         await conn.sendMessage(from, { text: puka }, { quoted: mek });
     } catch (e) {
         reply('🚫 *An error occurred!*\n\n' + e);
