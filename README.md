@@ -63,20 +63,27 @@ Generate your session ID for deployment:
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
+## **All Contributors**  
+<a href="https://github.com/Rahulmaster143"><img src="https://github.com/Rahulmaster143.png?size=150" width="150" height="150"></a> | [![RUSH-MASTER](https://github.com/RUSH-MASTER.png?size=150)](https://github.com/RUSH-MASTER)  
+---|---  
+[RAHUL-MASTER](https://github.com/Rahulmaster143)  | [RUSH-MASTER](https://github.com/RUSH-MASTER)  
+Recode OWNER | HELPER 
 
-**Developed by [RAHUL-MASTER](https://github.com/rahulmaster143)**
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-**HELPER by [RUSH-MASTER](https://github.com/RUSH-MASTER)
-
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-
-**HELPER by [Sarkar-Bandaheali](https://github.com/Sarkar-Bandaheali)
+---  
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+# **Special Thanks To**  
+<a href="https://github.com/Sarkar-Bandaheali"><img src="https://github.com/Sarkar-Bandaheali.png?size=150" width="150" height="150"></a> |.
+---|---  
+[SARKAR-BHAI](https://github.com/Sarkar-Bandaheali) 
+coDER |  
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+
+
