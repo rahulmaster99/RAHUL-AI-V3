@@ -1,8 +1,8 @@
 {
-  "name": "𝐸𝑀𝑃𝐼𝑅𝐸-𝑀𝐷",
-  "description": "𝐸𝑀𝑃𝐼𝑅𝐸-𝑀𝐷 | 𝐴𝑛 𝑎𝑙𝑙-𝑖𝑛-𝑜𝑛𝑒 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 𝐵𝑜𝑡 𝐹𝑜𝑟 𝑀𝑢𝑠𝑖𝑐 🎶 , 𝑆𝑚𝑎𝑟𝑡 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠 🤖. 𝐹𝑎𝑠𝑡 ,𝑅𝑒𝑙𝑖𝑎𝑏𝑙𝑒, 𝑎𝑛𝑑 𝑎𝑤𝑒𝑠𝑜𝑚𝑒 🚀",
-  "logo": "https://files.catbox.moe/r4decc.jpg",
-  "keywords": ["EMPIRE-MD", "𝐄𝐦𝐩𝐢𝐫𝐞 𝐓𝐞𝐜𝐡 [ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 ]", "Bot", "𝐸𝑀𝑃𝐼𝑅𝐸-𝑀𝐷"],
+  "name": "RAHUL-AI-V3",
+  "description": "RAHUL-AI-V3 | 𝐴𝑛 𝑎𝑙𝑙-𝑖𝑛-𝑜𝑛𝑒 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 𝐵𝑜𝑡 𝐹𝑜𝑟 𝑀𝑢𝑠𝑖𝑐 🎶 , 𝑆𝑚𝑎𝑟𝑡 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠 🤖. 𝐹𝑎𝑠𝑡 ,𝑅𝑒𝑙𝑖𝑎𝑏𝑙𝑒, 𝑎𝑛𝑑 𝑎𝑤𝑒𝑠𝑜𝑚𝑒 🚀",
+  "logo": "https://files.catbox.moe/msn93a.jpg",
+  "keywords": ["RAHUL-AI-V3", "Rahul Master [ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 ]", "Bot", "𝐸𝑀𝑃𝐼𝑅𝐸-𝑀𝐷"],
   "success_url": "/",
 "env": {
     "ALWAYS_ONLINE": {
@@ -68,12 +68,12 @@
     "OWNER_NAME": {
       "description": "Owner name.",
       "required": true,
-      "value": "𝙴𝚖𝚙𝚒𝚛𝚎 𝚃𝚎𝚌𝚑"
+      "value": "Rahul Master"
     },
     "OWNER_NUMBER": {
       "description": "Put your own number below.",
       "required": true,
-      "value": "2348144250768"
+      "value": "919356730236"
     },
     "PREFIX": {
       "description": "Set your prefix. You can use `all | . | .!*`.",
