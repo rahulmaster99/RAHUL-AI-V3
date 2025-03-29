@@ -41,16 +41,6 @@ Generate your session ID for deployment:
   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-
-**Deploy On Koyeb ✅**
-
-[![Deploy to Koyeb]
-(https://www.koyeb.com/static/images/deploy/button.svg)]
-
-
-
-
-
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
