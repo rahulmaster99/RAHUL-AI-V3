@@ -1,7 +1,7 @@
 
 # RAHUL-AI-V3 WHATSAPP BOT 🤍🚨
 
-![Bot Image](https://files.catbox.moe/x1onpj.jpg)
+![Bot Image](https://files.catbox.moe/i79zfg.jpg)
 
 **Simple and Best WhatsApp Bot Created by [RAHUL-MASTER](https://github.com/rahulmaster143)**
 
