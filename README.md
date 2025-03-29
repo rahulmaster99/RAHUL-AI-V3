@@ -27,8 +27,8 @@ Generate your session ID for deployment:
   [Watch on YouTube](https://www.youtube.com/@rahulhiran4733)
 
   
-- 
-- **Deploy on Panel**
+ 
+ **Deploy on Panel**
   
   **📺 Panel Deployment Tutorial:**  
   [Watch on YouTube](https://www.youtube.com/@rahulhiran4733)
