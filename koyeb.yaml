@@ -1,6 +1,6 @@
-name: empire-md
+name: rahul-ai-v3
 services:
-  - name: empire-md-service
+  - name: rahul-ai-v3-service
     type: web
     runtime: docker
     docker:
