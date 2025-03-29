@@ -1,7 +1,7 @@
 //---------------------------------------------
-//           EMPIRE-MD  
+//             RAHUL-AI-V3
 //---------------------------------------------
-//  @project_name : EMPIRE-MD  
+//  @project_name : RAHUL-AI-V3  
 //  @author       : efeurhobobullish
 //  ⚠️ DO NOT MODIFY THIS FILE ⚠️  
 //---------------------------------------------
@@ -22,7 +22,7 @@ cmd({
 }, async (conn, mek, m, { from, q, body, reply, isOwner }) => {
       if (!isOwner) return reply("*Owner Only Command*");
 
-const image = "https://files.catbox.moe/gvg6ww.jpg";
+const image = "https://files.catbox.moe/x1onpj.jpg";
 
     const infoMess = {
             image: { url: image },
@@ -65,7 +65,7 @@ Reply With:
                         break;
 
                     case "2": 
-                        config.MODE = "private";
+                        config.MODE = "public";
                         saveConfig();
                         return reply("Bot Mode Has Been Set to Private.");
                         break;
@@ -102,8 +102,8 @@ cmd({
     try {
       if (!isOwner) return reply("❏ This command can only be used by the bot owner.");
 
-      const owner = "𝙴𝚖𝚙𝚒𝚛𝚎 𝚃𝚎𝚌𝚑";
-      const repoLink = "https://github.com/efeurhobobullish/EMPIRE-MD";
+      const owner = "RAHUL-MASTER";
+      const repoLink = "https://github.com/rahulmaster143/RAHUL-AI-V3";
 
       const uptime = runtime(process.uptime());
 
@@ -116,7 +116,7 @@ cmd({
 │ ∘ 𝙱𝚘𝚝 𝚄𝚙𝚝𝚒𝚖𝚎: ${uptime}  
 ╰────────────────────`;
 
-      const imageUrl = "https://files.catbox.moe/z7c67w.jpg";
+      const imageUrl = "https://files.catbox.moe/x1onpj.jpg";
 
       await conn.sendMessage(
         from,
@@ -141,7 +141,7 @@ cmd({
         const uptime = runtime(process.uptime());
 
         const aliveMsg = `
-╭────「  𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳 」────◆  
+╭────「  RAHUL-AI-V3」────◆  
 │ ∘ 𝙷𝙴𝙻𝙻𝙾 ${pushname}  
 │────────────────────  
 │ ∘ 𝚄𝙿𝚃𝙸𝙼𝙴:  
@@ -151,7 +151,7 @@ cmd({
         await conn.sendMessage(
             from,
             { 
-                image: { url: 'https://files.catbox.moe/r4decc.jpg' },
+                image: { url: 'https://files.catbox.moe/msn93a.jpg' },
                 caption: aliveMsg
             },
             { quoted: mek }
@@ -167,7 +167,7 @@ cmd({
 //--------------------------------------------
 cmd({
     pattern: "ping",
-    react: "♻️",
+    react: "⏰",
     alias: ["speed"],
     desc: "Check bot's ping",
     category: "misc",
@@ -181,7 +181,7 @@ cmd({
         const ping = endTime - startTime;
 
         await conn.sendMessage(from, {
-            text: `𝑃𝑂𝑁𝐺!${ping}ᴍꜱ`
+            text: `🌀RAHUL-AI🚨𝑃𝑂𝑁𝐺!${ping}ᴍꜱ`
         }, { quoted: message });
     } catch (e) {
         console.error(e);
@@ -199,7 +199,7 @@ cmd({
     filename: __filename,
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const githubRepoURL = 'https://github.com/efeurhobobullish/EMPIRE-MD';
+        const githubRepoURL = 'https://github.com/rahulmaster143/RAHUL-AI-V3';
         const regexMatch = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
 
         if (!regexMatch) {
@@ -282,7 +282,7 @@ cmd({
 }, async (conn, mek, m, { from, pushname, reply }) => {
     try {
         const uptime = runtime(process.uptime());
-        const uptimeMessage = `𝚄𝚙𝚝𝚒𝚖𝚎 𝚘𝚏 𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳: ${monospace(uptime)}`;
+        const uptimeMessage = `𝚄𝚙𝚝𝚒𝚖𝚎 𝚘𝚏 RAHUL-AI-V3: ${monospace(uptime)}`;
 
         await conn.sendMessage(from, { text: uptimeMessage }, { quoted: mek });
     } catch (e) {
