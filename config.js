@@ -15,7 +15,7 @@ function convertToBool(text, fault = 'true') {
 //═════[Don't Change Variables]════════\\
 
 global.alive_img = "📞 𝙰𝚞𝚝𝚘 𝙲𝚊𝚕𝚕 𝚁𝚎𝚓𝚎𝚌𝚝 𝙼𝚘𝚍𝚎 𝙰𝚌𝚝𝚒𝚟𝚎.📵 𝙽𝚘 𝙲𝚊𝚕𝚕𝚜 𝙰𝚕𝚕𝚘𝚠𝚎𝚍!";
-global.caption = "RAHUL-AI-V3 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝙴𝚖𝚙𝚒𝚛𝚎 𝚃𝚎𝚌𝚑";
+global.caption = "RAHUL-AI-V3 𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 Rahul Master";
 global.channelUrl = "";
 global.botname = "RAHUL-AI-V3";
 global.devs = "919356730236" // Developer Contact
