@@ -32,7 +32,7 @@ const ffmpeg = require('fluent-ffmpeg');
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
   if(!config.SESSION_ID) return console.log('Add your session to SESSION_ID in config.js !!');
-  const sessdata = config.SESSION_ID;
+  const sessdata = config.SESSION_ID.replace("RAHUL-AI-V3~", '');
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`);
   filer.download((err, data) => {
       if(err) throw err;
