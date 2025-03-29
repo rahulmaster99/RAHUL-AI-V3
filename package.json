@@ -1,0 +1,47 @@
+{
+  "name": "EMPIRE-MD",
+  "version": "1.0.0",
+  "description": "𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳 | 𝐴𝑛 𝑎𝑙𝑙-𝑖𝑛-𝑜𝑛𝑒 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 𝐵𝑜𝑡 𝐹𝑜𝑟 𝑀𝑢𝑠𝑖𝑐 🎶 , 𝑆𝑚𝑎𝑟𝑡 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠 🤖. 𝐹𝑎𝑠𝑡 ,𝑅𝑒𝑙𝑖𝑎𝑏𝑙𝑒, 𝑎𝑛𝑑 𝑎𝑤𝑒𝑠𝑜𝑚𝑒 🚀",
+  "main": "index.js",
+  "scripts": {
+    "restart": "pm2 restart EMPIRE-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name EMPIRE-MD",
+    "stop": "pm2 stop EMPIRE-MD"
+  },
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "6.7.9",
+    "api-dylux": "1.8.5",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "latest",
+    "file-type": "^20.1.0",
+    "file_size_url": "^1.0.6",
+    "fs-extra": "^11.3.0",
+    "megajs": "^1.3.5",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7",
+    "pino": "^9.6.0",
+    "pm2": "^5.4.3",
+    "qrcode-terminal": "^0.12.0",
+    "util": "^0.12.5",
+    "vm": "^0.1.0",
+    "yt-search": "2.12.1",
+    "sqlite": "5.1.1",
+    "sqlite3": "^5.0.11",
+    "wa-sticker-formatter": "4.4.4",
+    "form-data": "4.0.1",
+    "mumaker": "2.0.0",
+    "javascript-obfuscator": "4.1.1",
+    "simple-git": "3.27.0",
+    "fluent-ffmpeg": "2.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efeurhobobullish/EMPIRE-MD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/efeurhobobullish/EMPIRE-MD/issues"
+  },
+  "homepage": "https://github.com/efeurhobobullish/EMPIRE-MD#readme"
+}

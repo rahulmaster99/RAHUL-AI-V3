@@ -1,0 +1,95 @@
+{
+  "name": "𝐸𝑀𝑃𝐼𝑅𝐸-𝑀𝐷",
+  "description": "𝐸𝑀𝑃𝐼𝑅𝐸-𝑀𝐷 | 𝐴𝑛 𝑎𝑙𝑙-𝑖𝑛-𝑜𝑛𝑒 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 𝐵𝑜𝑡 𝐹𝑜𝑟 𝑀𝑢𝑠𝑖𝑐 🎶 , 𝑆𝑚𝑎𝑟𝑡 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠 🤖. 𝐹𝑎𝑠𝑡 ,𝑅𝑒𝑙𝑖𝑎𝑏𝑙𝑒, 𝑎𝑛𝑑 𝑎𝑤𝑒𝑠𝑜𝑚𝑒 🚀",
+  "logo": "https://files.catbox.moe/r4decc.jpg",
+  "keywords": ["EMPIRE-MD", "𝐄𝐦𝐩𝐢𝐫𝐞 𝐓𝐞𝐜𝐡 [ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 ]", "Bot", "𝐸𝑀𝑃𝐼𝑅𝐸-𝑀𝐷"],
+  "success_url": "/",
+"env": {
+    "ALWAYS_ONLINE": {
+      "description": "Use true or false to enable or disable always online.",
+      "required": true,
+      "value": "false"
+    },
+    "ANTICALL": {
+      "description": "Use true or false to Enable or disable calls.",
+      "required": true,
+      "value": "false"
+    },
+    "ANTICALL_MSG": {
+      "description": "Message for rejecting calls in Auto Reject Mode.",
+      "required": true,
+      "value": "*_📞 𝐴𝑢𝑡𝑜 𝐶𝑎𝑙𝑙 𝑅𝑒𝑗𝑒𝑐𝑡 𝑀𝑜𝑑𝑒 𝐴𝑐𝑡𝑖𝑣𝑒. 📵 𝑁𝑜 𝐶𝑎𝑙𝑙𝑠 𝐴𝑙𝑙𝑜𝑤𝑒𝑑!_*"
+    },
+    "ANTIDELETE": {
+      "description": "Use true or false to Enable or disable antidelete.",
+      "required": true,
+      "value": "false"
+    },
+    "ANTIDELETE_PM": {
+      "description": "true or false to disable or enable antidelete in private chat.",
+      "required": true,
+      "value": "false"
+    },
+    "ANTILINK": {
+      "description": "Enable or disable the anti-link feature in groups.",
+      "required": true,
+      "value": "false"
+    },
+    "AUTO_LIKE_EMOJI": {
+      "description": "Set custom emoji for auto-like status.",
+      "required": true,
+      "value": "💜"
+    },
+    "AUTO_LIKE_STATUS": {
+      "description": "Enable auto-like status with true or false.",
+      "required": true,
+      "value": "false"
+    },
+    "AUTO_RECORDING": {
+      "description": "Enable or disable the auto-recording feature.",
+      "required": true,
+      "value": "false"
+    },
+    "AUTO_TYPING": {
+      "description": "Enable or disable the auto-typing feature.",
+      "required": true,
+      "value": "false"
+    },
+    "AUTO_VIEW_STATUS": {
+      "description": "Enable auto-read status with true or false.",
+      "required": true,
+      "value": "false"
+    },
+    "MODE": {
+      "description": "Use 'public' or 'private'.",
+      "required": true,
+      "value": "private"
+    },
+    "OWNER_NAME": {
+      "description": "Owner name.",
+      "required": true,
+      "value": "𝙴𝚖𝚙𝚒𝚛𝚎 𝚃𝚎𝚌𝚑"
+    },
+    "OWNER_NUMBER": {
+      "description": "Put your own number below.",
+      "required": true,
+      "value": "2348144250768"
+    },
+    "PREFIX": {
+      "description": "Set your prefix. You can use `all | . | .!*`.",
+      "required": true,
+      "value": "."
+    },
+    "SESSION_ID": {
+      "description": "Put session ID below.",
+      "required": true,
+      "value": "zRJ2zQya#Ez8XGgRV_CD7Y6xCZnoc0pcEtlR6e_BIHbcydWQ0CfQ"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-20"
+}
