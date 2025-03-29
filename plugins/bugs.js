@@ -2,7 +2,7 @@ const { cmd, commands } = require('../command'); const config = require('../conf
 const prefix = config.PREFIX; // Get the prefix from the config
 
 // Global bug message configuration
- global.xbug2 = { key: { remoteJid: 'status@broadcast', fromMe: false, participant: '0@s.whatsapp.net', }, message: { listResponseMessage: { title: "𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳", }, }, };
+ global.xbug2 = { key: { remoteJid: 'status@broadcast', fromMe: false, participant: '0@s.whatsapp.net', }, message: { listResponseMessage: { title: "RAHUL-AI-V3", }, }, };
 
 
 
@@ -24,12 +24,12 @@ cmd({
 
         for (let i = 0; i < amount; i++) {
             await conn.sendMessage(m.chat, {
-                text: "𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳",
+                text: "RAHUL-AI-V3",
                 contextInfo: {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363337275149306@newsletter',
-                        newsletterName: "𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳",
+                        newsletterName: "RAHUL-AI-V3",
                         serverMessageId: 2,
                     },
                 },
@@ -66,12 +66,12 @@ cmd({
 
         for (let i = 0; i < amount; i++) {
             await conn.sendMessage(victimJid, {
-                text: "𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳",
+                text: "RAHUL-AI-V3",
                 contextInfo: {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363337275149306@newsletter',
-                        newsletterName: "𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳",
+                        newsletterName: "RAHUL-AI-V3",
                         serverMessageId: 2,
                     },
                 },
@@ -102,7 +102,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363337275149306@newsletter',
-                    newsletterName: "𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳",
+                    newsletterName: "RAHUL-AI-V3",
                     serverMessageId: 2,
                 },
             },
@@ -136,12 +136,12 @@ cmd({
             await conn.sendMessage(m.chat, {
                 audio: { url },
                 mimetype: "audio/mpeg",
-                title: `𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳 bug audio ${n}.mp3`,
+                title: `RAHUL-AI-V3 bug audio ${n}.mp3`,
                 contextInfo: {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363337275149306@newsletter',
-                        newsletterName: "𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳",
+                        newsletterName: "RAHUL-AI-V3",
                         serverMessageId: 2,
                     },
                 },
