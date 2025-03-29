@@ -5,6 +5,10 @@
 
 **Simple and Best WhatsApp Bot Created by [RAHUL-MASTER](https://github.com/rahulmaster143)**
 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+
 ## 🔗 Repository
 
 [![Fork the Repo](https://img.shields.io/badge/Fork%20Repo-blue?style=for-the-badge)](https://github.com/rahulmaster143/RAHUL-AI-V3/fork)
