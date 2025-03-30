@@ -8,7 +8,7 @@
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 const { cmd } = require('../command');
 const axios = require('axios');
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson } = require('../Lib/functions');
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson } = require('../lib/functions');
 const { downloadMediaMessage } = require('@whiskeysockets/baileys');
 const fs = require('fs');
 const path = require('path');
@@ -198,7 +198,7 @@ cmd({
 
             let sticker = new Sticker(nameJpg, {
                 pack: global.botname, // Use global.botname for the sticker pack
-                author: global.devsname || 'Hacker Only_🥇Empire', // Use global.devsname for the author
+                author: global.devsname || 'Hacker_🌟Rahul', // Use global.devsname for the author
                 type: StickerTypes.CROPPED, // CROP sticker type
                 categories: ['🤩', '🎉'], // Sticker categories
                 id: '12345', // Sticker id
@@ -215,7 +215,7 @@ cmd({
 
             let sticker = new Sticker(nameWebp, {
                 pack: global.botname, // Use global.botname for the sticker pack
-                author: global.devsname || 'Hacker Only_🥇Empire', // Use global.devsname for the author
+                author: global.devsname || 'Hacker_✈️Rahul', // Use global.devsname for the author
                 type: StickerTypes.CROPPED, // CROP sticker type
                 categories: ['🤩', '🎉'], // Sticker categories
                 id: '12345', // Sticker id
