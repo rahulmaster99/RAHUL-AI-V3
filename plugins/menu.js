@@ -4,7 +4,7 @@ cmd({
     pattern: "menu",
     desc: "menu the bot",
     category: "menu2",
-    react: "😁",
+    react: "🚀",
     filename: __filename
 },
 
@@ -14,8 +14,8 @@ try{
 let dec = `
 
 ╭───────────━┈⊷
-│🥰 ʙᴏᴛ ɴᴀᴍᴇ: ɴᴀʀᴜᴛᴏ 𝙼𝙳
-│👨‍💻 ᴏᴡɴᴇʀ : ᴅᴇꜱᴛɪɴʏ ᴛᴇᴄʜ    
+│🥰 ʙᴏᴛ ɴᴀᴍᴇ: RAHUL-AI-V3
+│👨‍💻 ᴏᴡɴᴇʀ : RAHUL-MASTER    
 │📌 ᴠᴇʀꜱɪᴏɴ: 1.1.3
 │🪩 ᴘʟᴀᴛғᴏʀᴍ: *ʟɪɴᴜx*
 │💾 ʀᴀᴍ : *258GB*
@@ -86,9 +86,9 @@ let dec = `
 ┃◆ .𝙽𝚎𝚠𝚜
 ┃◆ .𝙼𝚘𝚟𝚒𝚎
 ╰━━━━━━━━━━━━⪼
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇꜱᴛɪɴʏ ᴛᴇᴄʜ
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHUL-MASTER
 `
-await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/20y1gs.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/i79zfg.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
