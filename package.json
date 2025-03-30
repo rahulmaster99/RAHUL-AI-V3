@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "restart": "pm2 restart RAHUL-AI-V3",
-    "start": "pm2 start index.js --deep-monitoring --attach --name EMPIRE-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name RAHUL-AI-V3",
     "stop": "pm2 stop RAHUL-AI-V3"
   },
   "dependencies": {
