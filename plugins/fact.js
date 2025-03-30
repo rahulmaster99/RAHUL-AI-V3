@@ -21,7 +21,7 @@ ${fact}
 
 Isn't that interesting? 😄
 
-> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇꜱᴛɪɴʏ ᴛᴇᴄʜ
+> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHUL-MASTER 
 `;
 
         return reply(funFact);
