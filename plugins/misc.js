@@ -181,7 +181,7 @@ cmd({
         const ping = endTime - startTime;
 
         await conn.sendMessage(from, {
-            text: `🌀RAHUL-AI🚨𝑃𝑂𝑁𝐺!${ping}ᴍꜱ`
+            text: `🌀RAHUL-AI-V3🚀𝑃𝑂𝑁𝐺!${ping}ᴍꜱ`
         }, { quoted: message });
     } catch (e) {
         console.error(e);
@@ -224,7 +224,7 @@ cmd({
 │ ∘ 𝚂𝚝𝚊𝚛𝚜: ${repoData.stargazers_count}  
 │ ∘ 𝙵𝚘𝚛𝚔𝚜: ${repoData.forks_count}  
 │ ∘ 𝚄𝚁𝙻: ${repoData.html_url}  
-│ ∘ 𝚂𝚎𝚜𝚜𝚒𝚘𝚗: https://passive-veronike-rahul93-1ca567a9.koyeb.app/
+│ ∘ 𝚂𝚎𝚜𝚜𝚒𝚘𝚗: https://pair-code-new-o1lq.onrender.com/
 ╰────────────────────`;
 
         await conn.sendMessage(from, { text: formattedInfo }, { quoted: mek });
