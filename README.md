@@ -53,10 +53,19 @@ Generate your session ID for deployment:
  
   
   **📺 Panel Deployment Tutorial:**  
+
   [Watch on YouTube](https://www.youtube.com/@rahulhiran4733)
 
  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+**✅ Deploy On Koyeb**
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=rahul-ai-v3&repository=rahulmaster143%2FRAHUL-AI-V3&branch=main&builder=dockerfile&instance_type=free&regions=was&instances_min=0&autoscaling_sleep_idle_delay=300&env%5BALWAYS_ONLINE%5D=false&env%5BAUTO_LIKE_EMOJI%5D=%E2%AD%90&env%5BAUTO_LIKE_STATUS%5D=true&env%5BAUTO_VIEW_STATUS%5D=true&env%5BBOT_NAME%5D=RAHUL-AI-V3&env%5BOWNER_NAME%5D=RAHUL-MASTER+&env%5BOWNER_NUMBER%5D=919356730236&env%5BPREFIX%5D=.&env%5BSESSION_ID%5D=put_your_session_id...%21)
+
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 
 ## 🙏 Thank You!
 
