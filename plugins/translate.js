@@ -28,7 +28,7 @@ async (conn, mek, m, { from, q, reply }) => {
 🔠 *Translated*: ${translation}
 🌐 *Language*: ${targetLang.toUpperCase()}
 
- ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`;
+ ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHUL-MASTER`;
 
         return reply(translationMessage);
     } catch (e) {
