@@ -15,24 +15,24 @@ const {
   Browsers
 } = require('@whiskeysockets/baileys');
 
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson, saveConfig, empiretourl } = require('./Lib/functions');
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson, saveConfig, empiretourl } = require('./lib/functions');
 const fs = require('fs');
 const P = require('pino');
 const config = require('./config');
 const qrcode = require('qrcode-terminal');
 const util = require('util');
-const { sms, downloadMediaMessage } = require('./Lib/msg');
+const { sms, downloadMediaMessage } = require('./lib/msg');
 const axios = require('axios');
 const { File } = require('megajs');
 const prefix = config.PREFIX;
-const mode = config.MODE || "private";
+const mode = config.MODE || "public";
 const ownerNumber = [config.OWNER_NUMBER];
 const ffmpeg = require('fluent-ffmpeg');
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
   if(!config.SESSION_ID) return console.log('Add your session to SESSION_ID in config.js !!');
-  const sessdata = config.SESSION_ID.replace("RAHUL-AI-V3~", '');
+  const sessdata = config.SESSION_ID.replace("RAHUL-AI-MD~", '');
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`);
   filer.download((err, data) => {
       if(err) throw err;
