@@ -1,12 +1,12 @@
 const { cmd } = require('../command');
 const config = require('../config');
 const axios = require('axios');
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson, empiretourl } = require('../Lib/functions');
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson, rahultourl } = require('../lib/functions');
 const ffmpeg = require('fluent-ffmpeg');
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const fs = require('fs');
 const path = require('path');
-const { sms, downloadMediaMessage } = require('../Lib/msg');
+const { sms, downloadMediaMessage } = require('../lib/msg');
 const prefix = config.PREFIX;
 
 cmd({
