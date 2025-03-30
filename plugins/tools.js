@@ -1,6 +1,6 @@
 const config = require('../config');
 const { cmd, commands } = require('../command');
-const { sleep } = require('../Lib/functions');
+const { sleep } = require('../lib/functions');
 
 // Shutdown command
 cmd({
