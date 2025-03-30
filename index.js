@@ -178,9 +178,9 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
   
 
 //===================WORKTYPE===============================
-if(!isOwner && config.MODE === "public") return
-if(!isOwisGroup && config.MODE === "inbox") return
-if(!isOwner && isGroup && config.MODE === "groups") return
+  if(!isOwner && config.MODE === "private") return
+if(!isOwner && isGroup && config.MODE === "inbox") return
+if(!isOwner && !isGroup && config.MODE === "groups") return
 //==================================================
 
 
