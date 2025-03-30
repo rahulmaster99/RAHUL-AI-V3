@@ -7,9 +7,9 @@
 //---------------------------------------------
 const config = require('../config');
 const { cmd, commands } = require('../command');
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson, saveConfig} = require('../Lib/functions');
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson, saveConfig} = require('../lib/functions');
 const fs = require('fs');
-const { monospace } = require('../Lib/monospace');
+const { monospace } = require('../lib/monospace');
 const axios = require('axios');
 const { exec } = require('child_process'); 
 
@@ -107,7 +107,7 @@ cmd({
 
       const uptime = runtime(process.uptime());
 
-      const footer = "𝙴𝙼𝙿𝙸𝚁𝙴-𝙼𝙳";
+      const footer = "RAHUL-AI-V3";
 
       const finalMessage = `
 ╭────「  𝙱𝙾𝚃 𝙸𝙽𝙵𝙾 」────◆  
