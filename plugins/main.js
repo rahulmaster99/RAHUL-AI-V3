@@ -7,9 +7,9 @@
 //---------------------------------------------
 const config = require('../config');
 const { cmd, commands } = require('../command');
-const { monospace } = require('../Lib/monospace');
+const { monospace } = require('../lib/monospace');
 const os = require('os'); // Import the os module
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson, saveconfig } = require('../Lib/functions');
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson, saveconfig } = require('../lib/functions');
 
 // Use global variables for dynamic content
 const botname = global.botname || "RAHUL-AI-V3";
