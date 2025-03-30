@@ -15,19 +15,19 @@ let dec = `*👋 Hello ${pushname}*
           
 📍𝖱𝖾𝗉𝗈 𝖫𝗂𝗇𝗄 ❤️‍🔥👇
 
-👨‍💻◦ https://github.com/Dest1ny-7/NARUTO-MD 
+👨‍💻◦ https://github.com/rahulmaster143/RAHUL-AI-V3 
 
 📍𝖯𝗅𝖾𝖺𝗌𝖾 𝖲𝗎𝖻𝗌𝖼𝗋𝗂𝖻𝖾 𝖬𝗒 𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 👇
 
-👨‍💻◦ https://www.youtube.com/@malvintech2 
+👨‍💻◦ https://youtube.com/@rahulhiran4733?si=EdrJlycGO-JGzds5 
 
-📍𝖯𝗅𝖾𝖺𝗌𝖾 𝖥𝗈𝗅𝗅𝗈𝗐 𝖬𝗒 𝖶𝗁𝖺𝗍𝗌𝖺𝗉𝗉 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 👇
+📍𝖯𝗅𝖾𝖺𝗌𝖾 Add 𝖬𝗒 𝖶𝗁𝖺𝗍𝗌𝖺𝗉𝗉 Group 👇
 
-👨‍💻◦ https://whatsapp.com/channel/0029Vazygae72WTmIGM72Q06
+👨‍💻◦ https://chat.whatsapp.com/CQCsQvuJwdE4liQr6Ec0UR
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇꜱᴛɪɴʏ ᴛᴇᴄʜ*
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHUL-MASTER*
 `
-await conn.sendMessage(from,{image:{url: `https://i.imgur.com/HO8U7W1.jpeg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/i79zfg.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
