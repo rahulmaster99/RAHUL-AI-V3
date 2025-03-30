@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['2349073081822']
+const ownerNumber = ['919356730236']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting Naruto MD BOT ⏳️...");
+console.log("Connecting RAHUL-AI-V3 BOT ⏳️...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -69,31 +69,31 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `🚀 *_NARUTO-MD Connected Successfully!_* ✅ 
+let up = `🚀 *RAHUL-AI-V3 Connected Successfully!_* ✅ 
 
---- *👨‍💻🎉 _Welcome to NARUTO-MD!_* 🎉💗 
+--- *👨‍💻🎉 _Welcome to RAHUL-AI-V3!_* 🎉💗 
 
 *🔹 PREFIX:* .
 
-*🔹 OWNER:* 2349073081822
+*🔹 OWNER:* 919356730236
 
-_Thank you for using_ *👨‍💻NARUTO-MD💗.*
+_Thank you for using_ *👨‍💻RAHUL-AI-V3💗.*
 _We're here to make your experience enjoyable and seamless._
 _If you need any help or have questions, don't hesitate to ask._ 🌝💗
 
 *🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029Vazygae72WTmIGM72Q06
 
-*🖇️Subscribe My Youtube Channel✓💗 - :* https://youtube.com/@malvintech2?si=Tv2Ef2XZFjhAX3Ae
+*🖇️Subscribe My Youtube Channel✓💗 - :* https://youtube.com/@rahulhiran4733?si=EdrJlycGO-JGzds5
 
-*🖇️Fork & Star My Repo✓💗 - :* https://github.com/Dest1ny-7/NARUTO-MD 
+*🖇️Fork & Star My Repo✓💗 - :* https://github.com/rahulmaster143/RAHUL-AI-V3
 
-*🖇️Follow My Github Account✓💗 - :* https://github.com/Dest1ny-7
+*🖇️Follow My Github Account✓💗 - :* https://github.com/rahulmaster143
 
 _*👨‍💻 Enjoy your time with us! 😊*_
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇꜱᴛɪɴʏ ᴛᴇᴄʜ*`;
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHUL-MASTER*`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/HO8U7W1.jpeg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/bruryh.jpeg` }, caption: up })
 
 }
 })
@@ -163,7 +163,7 @@ if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //====================react============================
 
-if(senderNumber.includes("2349073081822")){
+if(senderNumber.includes("919356730236")){
 if(isReact) return
 m.react("👨‍💻")
 }
@@ -209,7 +209,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, naruto started✅");
+res.send("hey, Rahul-Ai-V3 started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
