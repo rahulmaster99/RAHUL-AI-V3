@@ -13,7 +13,7 @@ const { sms,downloadMediaMessage } = require('../Lib/msg');
 const fs = require('fs');
 const exec = require('child_process');
 const path = require('path');
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson } = require('../Lib/functions');
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson } = require('../lib/functions');
 const ownerNumber = [config.OWNER_NUMBER];
 const prefix = config.PREFIX;
 //--------------------------------------------
