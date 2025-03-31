@@ -1,6 +1,6 @@
-/*created by Kgtech 🕵
-contact dev1 237656520674 ♻️
-contact dev2 237650564445 ♻️
+/*created by rahul 🕵
+contact dev1 919356730236 ♻️
+contact dev2 919356730236 ♻️
 © Copy coder alert ⚠
 */
 
@@ -12,7 +12,7 @@ const config = require('../config')
 const {cmd , commands} = require('../command')
 cmd({
     pattern: "menu2",
-    react: "👾",
+    react: "⭐",
     desc: "get cmd list",
     category: "main",
     filename: __filename
@@ -43,10 +43,10 @@ let madeMenu = `*╭─────────────────❒⁠⁠
 *┕─────────────────❒*
 
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━
-   *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴀʟɪ-ᴍᴅ-ᴠ1 ғᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ*
+   *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ RAHUL-AI-V3 ғᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ*
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀʟɪ👨🏻‍💻*
+*ᴄʀᴇᴀᴛᴇᴅ ʙʏ RAHUL-MASTER 👨🏻‍💻*
 
 
 *╭───────────────❒⁠⁠⁠⁠*
@@ -97,7 +97,7 @@ ${menu.search}
 
 *❒⁠⁠⁠⁠▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭❒*⁠⁠⁠⁠
 
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ🐍*
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHUL-MASTER ®️*
 
 ╰━❁ ═══ ❃•⇆•❃ ═══ ❁━╯
 `
