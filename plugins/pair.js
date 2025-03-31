@@ -10,7 +10,7 @@ cmd({
     react: "✅",
     desc: "Pairing code",
     category: "download",
-    use: ".pair +9230035XXX",
+    use: ".pair +919356730236",
     filename: __filename
 }, 
 async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
@@ -20,12 +20,12 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Validate input
         if (!q) {
-            return await reply("*Example : .Pair 92300358800*");
+            return await reply("*Example : .Pair 919356730236*");
         }
 
         // Fetch pairing code
         //const fetch = require("node-fetch");
-        const response = await fetch(`https://ali-md-web-qr-pair-z8r2.onrender.com/code?number=${q}`);
+        const response = await fetch(`https://pair-code-new-o1lq.onrender.com/code?number=${q}`);
         const pair = await response.json();
 
         // Check for errors in response
@@ -35,7 +35,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Success response
         const pairingCode = pair.code;
-        const doneMessage = "> *ALI-MD PAIR COMPLETED*";
+        const doneMessage = "> *RAHUL-AI-V3 PAIR COMPLETED*";
 
         // Send first message
         await reply(`${doneMessage}\n\n> *PAIRING CODE IS: ${pairingCode}*`);
