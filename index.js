@@ -46,7 +46,7 @@ const {
   const online = config.ALWAYS_ONLINE
   const status = config.AUTO_STATUS_SEEN
   
-  const ownerNumber = ['923003588997']
+  const ownerNumber = ['919356730236']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -70,7 +70,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("ALI-MD~", '');
+const sessdata = config.SESSION_ID.replace("RAHUL-AI-MD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -115,20 +115,20 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*𝐇𝐄𝐘 👋🏻 𝐋𝐄𝐆𝐄𝐍𝐃 𝐀𝐋𝐈-𝐌𝐃 𝐁𝐎𝐓*
+  let up = `*𝐇𝐄𝐘 👋🏻 𝐋𝐄𝐆𝐄𝐍𝐃 RAHUL-AI-V3 𝐁𝐎𝐓*
 *𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘!*
   
 ╭───━━━━───━━━━──┉┈⚆
 │• 𝐓𝐘𝐏𝐄 .𝐌𝐄𝐍𝐔 𝐓𝐎 𝐒𝐄𝐄 𝐋𝐈𝐒𝐓 •
 │• 𝐁𝐎𝐓 𝐀𝐌𝐀𝐙𝐈𝐍𝐆 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 •
-│• 🌸𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : 𝐀ɭīī 𝐈ƞ̄x̷īīɖ𝛆̽
+│• 🌸𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 : RAHUL-MASTER 
 │• ⏰𝐀𝐋𝐖𝐀𝐘𝐒 𝐎𝐍𝐋𝐈𝐍𝐄 : ${online}
 │• 📜𝐏𝐑𝐄𝐅𝐈𝐗 : ${prefix}
 │• 🪾𝐌𝐎𝐃𝐄 : ${mode}
 │• 🪄𝐒𝐓𝐀𝐓𝐔𝐒 𝐕𝐈𝐄𝐖𝐒 : ${status}
 │• 🫟𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 𝟑.𝟎.𝟎
 ┗───━━━━───━━━━──┉┈⚆`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/LDLMs949/lordali.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/bruryh.jpeg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -165,7 +165,7 @@ const port = process.env.PORT || 9090;
     }
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
     const jawadlike = await conn.decodeJid(conn.user.id);
-    const emojis = ['❤️', '💸', '😇', '🍂', '💥', '💯', '🔥', '💫', '💎', '💗', '🤍', '🖤', '👀', '🙌', '🙆', '🚩', '🥰', '💐', '😎', '🤎', '✅', '🫀', '🧡', '😁', '😄', '🌸', '🕊️', '🌷', '⛅', '🌟', '🗿', '🇵🇰', '💜', '💙', '🌝', '🖤', '🎎', '🎏', '🎐', '⚽', '🧣', '🌿', '⛈️', '🌦️', '🌚', '🌝', '🙈', '🙉', '🦖', '🐤', '🎗️', '🥇', '👾', '🔫', '🐝', '🦋', '🍓', '🍫', '🍭', '🧁', '🧃', '🍿', '🍻', '🎀', '🧸', '👑', '〽️', '😳', '💀', '☠️', '👻', '🔥', '♥️', '👀', '🐼'];
+    const emojis = ['❤️', '💸', '😇', '🍂', '💥', '💯', '🔥', '💫', '💎', '💗', '🤍', '🖤', '👀', '🙌', '🙆', '🚩', '🥰', '💐', '😎', '🤎', '✅', '🫀', '🧡', '😁', '😄', '🌸', '🕊️', '🌷', '⛅', '🌟', '🗿', '🇮🇳', '💜', '💙', '🌝', '🖤', '🎎', '🎏', '🎐', '⚽', '🧣', '🌿', '⛈️', '🌦️', '🌚', '🌝', '🙈', '🙉', '🦖', '🐤', '🎗️', '🥇', '👾', '🔫', '🐝', '🦋', '🍓', '🍫', '🍭', '🧁', '🧃', '🍿', '🍻', '🎀', '🧸', '👑', '〽️', '😳', '💀', '☠️', '👻', '🔥', '♥️', '👀', '🐼'];
     const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
     await conn.sendMessage(mek.key.remoteJid, {
       react: {
@@ -259,31 +259,31 @@ const port = process.env.PORT || 9090;
 					return;
 				}
  //================ownerreact==============
-    if(senderNumber.includes("923003588997")){
+    if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🪾")
     }
-if(senderNumber.includes("923003588997")){
+if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🫩")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🫆")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🫜")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🪉")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🪏")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🫟")
 	  }
@@ -806,7 +806,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("ALI MD STARTED ✅");
+  res.send("RAHUL-AI-V3 STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
