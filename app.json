@@ -1,8 +1,8 @@
 {
-  "name": "ALI-MD",
-  "description": "Javascript WhatsApp bot made by ALI",
-  "logo": "https://cdn.ironman.my.id/i/2du3i5.jpg",
-  "keywords": ["ALI-MD"],
+  "name": "RAHUL-AI-V3",
+  "description": "Javascript WhatsApp bot made by rahulmaster143",
+  "logo": "https://files.catbox.moe/i79zfg.jpg",
+  "keywords": ["RAHUL-AI-V3"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "𓆩ု᪳𝐀𝐋𝐈-𝐌𝐃ှ᪳𓆪"
+      "value": "RAHUL-AI-V3𓆪"
     }, 
       
     "PREFIX": {
