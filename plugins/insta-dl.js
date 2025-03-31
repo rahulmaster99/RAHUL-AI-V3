@@ -3,7 +3,7 @@ const { cmd, commands } = require('../command');
 
 
 cmd({
-    pattern: "insta",
+    pattern: "ig",
     alias: ["igdl", "reel", "ig", "instadl"],
     desc: "Download Instagram reels or image posts",
     category: "downloader",
@@ -25,7 +25,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
 
         const { username, fullname, caption, likes, comments, followed, download } = data.data;
 
-        const captionText = `*❒ ᴀʟɪ-ᴍᴅ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ❒*\n\n` +
+        const captionText = `*❒ RAHUL-AI-V3 ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ❒*\n\n` +
                             `👤 *ᴜsᴇʀ:* ${fullname}\n` +
                             `♥️ *ʟɪᴋᴇs:* ${likes}\n💬 *ᴄᴏᴍᴍᴇɴᴛs:* ${comments}\n👥 *ғᴏʟʟᴏᴡᴇʀs:* ${followed}\n`;
 
