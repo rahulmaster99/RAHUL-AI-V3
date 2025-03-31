@@ -79,21 +79,21 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS JUST NOW ALI-MD 🍒*"
+      "value": "*SEEN YOUR STATUS JUST NOW RAHUL-AI-V3 🍒*"
    
      }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "𓆩ု᪳𝐀𝐋𝐈-𝐌𝐃ှ᪳𓆪"
+      "value": "RAHUL-AI-V3𓆪"
 
       }, 
     
     "ALIVE_IMG": {
       "description": "put here the bot Menu url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://cdn.ironman.my.id/i/2du3i5.jpg" 
+      "value": "https://files.catbox.moe/bruryh.jpeg" 
       },
 
     "DELETE_LINK": {
