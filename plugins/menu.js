@@ -93,7 +93,7 @@ cmd({
 
     pattern: "menu",
 
-    react: "🍁",
+    react: "🌠",
 
     alias: ["allmenu","bot","commands"],
 
@@ -113,9 +113,9 @@ try{
 let madeMenu = `*╭━━❍〘〘 ${config.BOT_NAME} 〙〙*
 *┃🪾 ᴍᴏᴅᴇ* : *${config.MODE}*
 *┃🪄 ᴘʀᴇғɪx* : *${config.PREFIX}*
-*┃🌀 ʙᴀɪʟᴇʏs: ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ*
+*┃🌀 ʙᴀɪʟᴇʏs: RAHUL-MASTER*
 *┃🎐 ʀᴀᴍ* : *34.56 ɢʙ/60.79*
-*┃👑 ᴄʀᴇᴀᴛᴏʀ* : *ᴀʟɪ ɪɴxɪᴅᴇ*
+*┃👑 ᴄʀᴇᴀᴛᴏʀ* : *RAHUL AI V3*
 *┃⏰ ᴀʟᴡᴀʏs ᴏɴʟɪɴᴇ* : *${config.ALWAYS_ONLINE}*
 *┃🫟 ᴠᴇʀsɪᴏɴs* : *ᴠ.4.0.0*
 *╰━━━━━━━━━━━━━━━━━━❍*
@@ -142,7 +142,7 @@ let madeMenu = `*╭━━❍〘〘 ${config.BOT_NAME} 〙〙*
 *├⬡ .ʙᴀɪsᴄᴏᴘᴇ*
 *├⬡ .ɢɪɴɪsɪsɪʟᴀ*
 *┕──────────────────❍*
-*╭──❍ 🏮 EMPIRE ALI 🏮 ❍* 
+*╭──❍ 🏮 RAHUL AI V3 🏮 ❍* 
 *├⬡ .ғᴀᴍɪʟʏ*
 *├⬡ .ᴄʜᴀɴɴᴇʟ*
 *├⬡ .sᴜᴘᴘᴏʀᴛ*
@@ -369,7 +369,7 @@ let madeMenu = `*╭━━❍〘〘 ${config.BOT_NAME} 〙〙*
 *├⬡ .ᴅᴀɪʟʏꜰᴀᴄᴛ*
 *├⬡ .ᴍɪɴᴜᴛᴏʀ*
 *┕──────────────────❍*
-> *ғꪮʀ ʏꪮꪊ ғꪮʀ ᴀʟʟ ꪮғ ᴀꜱ 🍉*`
+> *POWERED BY RAHUL-MASTER*`
 
 await conn.sendMessage(from,{image:{url: config.ALIVE_IMG},caption:madeMenu,
                              contextInfo: {
@@ -378,14 +378,14 @@ await conn.sendMessage(from,{image:{url: config.ALIVE_IMG},caption:madeMenu,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363318387454868@newsletter',
-      newsletterName: '𓆩ྀི͛𝐀ɭīī 𝐌Ɗ 𝚩❍𝐓 𝐌𝛆፝֟፝֟ƞ̽ʊྀི̊𓆪͛',
+      newsletterName: 'RAHUL-AI-V3 𝚩❍𝐓 𝐌𝛆፝֟፝֟ƞ̽ʊྀི̊𓆪͛',
       serverMessageId: 999
     }
   }
 }, { quoted: mek });
             // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://cdn.ironman.my.id/i/3hu6ti.mp4' },
+            audio: { url: 'https://files.catbox.moe/r9x8ga.mp4' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
