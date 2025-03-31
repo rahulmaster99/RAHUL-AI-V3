@@ -378,7 +378,7 @@ await conn.sendMessage(from,{image:{url: config.ALIVE_IMG},caption:madeMenu,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363318387454868@newsletter',
-      newsletterName: 'RAHUL-AI-V3 𝚩❍𝐓 𝐌𝛆፝֟፝֟ƞ̽ʊྀི̊𓆪͛',
+      newsletterName: 'RAHUL-AI-V3 𝚩❍𝐓',
       serverMessageId: 999
     }
   }
