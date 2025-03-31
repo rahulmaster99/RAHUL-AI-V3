@@ -4,7 +4,7 @@ const yts = require('yt-search')
 cmd({
     pattern: "play3",
     desc: "To download songs.",
-    react: "🎵",
+    react: "🎧",
     category: "download",
     filename: __filename
 },
@@ -17,7 +17,7 @@ const url = data.url
     
     
 let desc = `
-*⫷⦁ALI-MD-V1 MUSⵊC DOWNLOADⵊNG⦁⫸*
+*⫷⦁RAHUL-AI-V3 MUSⵊC DOWNLOADⵊNG⦁⫸*
 
 🎵 *MUSⵊC FOUND!* 
 
@@ -29,9 +29,9 @@ let desc = `
 
 🎧 *ENJOY THE MUSIC BROUGHT TO YOU!*
 
-> *ALI-MD-V1 WHATSAPP BOT* 
+> *RAHUL-AI-V3 WHATSAPP BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀʟɪ-ᴍᴅ* 
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ RAHUL-AI-V3* 
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -70,7 +70,7 @@ const url = data.url
     
     
 let desc = `
-*⫷⦁ALI-MD-V1 VⵊDEO DOWNLOADⵊNG⦁⫸*
+*⫷⦁RAHUL-AI-V3 VⵊDEO DOWNLOADⵊNG⦁⫸*
 
 🎥 *VⵊDEO FOUND!* 
 
@@ -82,9 +82,9 @@ let desc = `
 
 🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
 
-> *ALI-MD-V1 WHATSAPP BOT* 
+> *RAHUL-AI-V3 WHATSAPP BOT* 
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀʟɪ-ᴍᴅ*
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ RAHUL-AI-V3*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
