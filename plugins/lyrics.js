@@ -114,7 +114,7 @@ cmd({
 
         // Send message with lyrics and buttons
         const buttonMessage = {
-            text: `> 🍓ALI LYRICS RESULT🍓\n\nTitle🎧 *${title}*\nArtist🗣️ *${artist}*\n\n${lyrics}`,
+            text: `> 🍓RAHUL AI V3 LYRICS RESULT🍓\n\nTitle🎧 *${title}*\nArtist🗣️ *${artist}*\n\n${lyrics}`,
             footer: 'Lyrics provided by lyrics.ovh',
             buttons: buttons,
             headerType: 1
