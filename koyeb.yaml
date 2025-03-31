@@ -1,6 +1,6 @@
-name: ali-ai
+name: rahul-ai-v3
 services:
-  - name: ali-ai-service
+  - name: rahul-ai-service
     type: web
     ports:
       - 5000
