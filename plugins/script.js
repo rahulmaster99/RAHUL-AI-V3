@@ -15,7 +15,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/itx-alii-raza/ALI-MD';
+    const githubRepoURL = 'https://github.com/rahulmaster143/RAHUL-AI-V3';
 
     try {
         // Extract username and repo name from the URL
@@ -31,21 +31,21 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 𝐀𝐋𝐈-𝐌𝐃 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
+        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 RAHUL-AI-V3 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
 
 > *sɪᴍᴘʟᴇ, ɪᴄʏ, ᴄᴏʟᴅ  & ʀɪᴄʜ ʟᴏᴀᴅᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs, ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
 
 *\`REPO LINK:\`📮*
-> https://github.com/itx-alii-raza/ALI-MD/fork
+> https://github.com/rahulmaster143/RAHUL-AI-V3/fork
 
 *\`BOT GC LINK:\`🪀*
-> https://tinyurl.com/2acmqaqz
+> https://pair-code-new-o1lq.onrender.com
 
 *\`BOT NAME:\`🤖*
 > ${repoData.name}
 
 *\`OWNER NAME:\`👨‍💻*
-> 𝐀ɭīī 𝐈ƞ̄x̷īīɖ𝛆̽
+> RAHUL-MASTER 
 
 *\`STARS:\`🌟*
 > ${repoData.stargazers_count}
@@ -56,11 +56,11 @@ async (conn, mek, m, { from, reply }) => {
 *\`DESCRIPTION:\`📑*
 > ${repoData.description || 'No description'}\n
 ──────────────────
-\n> *© POWERED BY ALI* 🎐`;
+\n> *© POWERED BY RAHUL-MASTER* 🎐`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/heu4tc.png` },
+            image: { url: `https://files.catbox.moe/bruryh.jpeg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
@@ -68,7 +68,7 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '☇ 𝐀ɭι̇ι̇ 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ  ⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterName: 'RAHUL-AI-V3 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ  ⃪🤖͎᪳᪳𝆺𝅥',
                     serverMessageId: 143
                 }
             }
@@ -76,7 +76,7 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://cdn.ironman.my.id/i/9wf0nd.mp4' },
+            audio: { url: 'https://files.catbox.moe/r9x8ga.mp4' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
@@ -85,7 +85,7 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: false,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363318387454868@newsletter',
-                    newsletterName: '𝐀ɭīī 𝐌Ɗ 𝐒ʊ̊𝐏𝐏๏፝֟ɼʈ  ⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterName: 'RAHUL-AI-V3',
                     serverMessageId: 143
                 }
             }
